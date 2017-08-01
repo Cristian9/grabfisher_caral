@@ -6,6 +6,7 @@ class GrabController extends CI_Controller {
 	public function __construct() {
 		parent::__construct();
 		$this->load->helper('form');
+		$this->load->model('Grabmodel');
 	}
 
 	public function index() {
@@ -13,7 +14,8 @@ class GrabController extends CI_Controller {
 	}
 
 	public function registro_ficha() {
-		$this->load->view('ficha/carga_ficha');
+		$data['lanchas'] = $this->Grabmodel->getLanchas();
+		$this->load->view('ficha/carga_ficha', $data);
 	}
 
 }
