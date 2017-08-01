@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'admin',
-	'password' => 'admindta',
-	'database' => 'grabfish',
+	'hostname' => 'op2hpcwcbxb1t4z9.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+	'username' => 'fbnbq193uw89ntet',
+	'password' => 'ceoenp6bxm5zy55t',
+	'database' => 'mxx7xmvjlkamlhf6',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
