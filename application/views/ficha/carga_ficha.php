@@ -128,7 +128,26 @@
                             <input type="text" class="form-control" data-placement="bottom">
                         </div>
                     </div>
-                    <div class="clearfix"></div>
+                    <div class="clearfix"></div><p></p>
+                     <h4 class="page-header has-error">1.2 CAJA REDUCCIÓN: TWING DISC Serie 5600</h4>
+                     <div class="form-group">
+                        <label class="col-sm-4 control-label">Presión de Aceite</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" data-placement="bottom">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Temp. de Aceite</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" data-placement="bottom">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Horas de Aceite</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" data-placement="bottom">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -137,7 +156,7 @@
                 <div class="box-header">
                     <div class="box-name">
                         <i class="fa fa-search"></i>
-                        <span>LECTURA DE TEMP</span>
+                        <span>1.1 LECTURA DE TEMP. CIL. DE MOTOR</span>
                     </div>
                     <div class="box-icons">
                         <a class="collapse-link">
@@ -278,56 +297,12 @@
                 </div>
             </div>
         </div>
-
-        <div class="col-xs-6 col-sm-6">
-            <div class="box">
-                <div class="box-header">
-                    <div class="box-name">
-                        <i class="fa fa-search"></i>
-                        <span>CAJA DE REDUCCIÓN: TWING DISC</span>
-                    </div>
-                    <div class="box-icons">
-                        <a class="collapse-link">
-                            <i class="fa fa-chevron-up"></i>
-                        </a>
-                        <a class="expand-link">
-                            <i class="fa fa-expand"></i>
-                        </a>
-                        <!--<a class="close-link">
-                            <i class="fa fa-times"></i>
-                        </a>-->
-                    </div>
-                    <div class="no-move"></div>
-                </div>
-                <div class="box-content">
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label">Presión de Aceite</label>
-                        <div class="col-sm-4">
-                            <input type="text" class="form-control" data-placement="bottom">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label">Temp. de Aceite</label>
-                        <div class="col-sm-4">
-                            <input type="text" class="form-control" data-placement="bottom">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label">Horas de Aceite</label>
-                        <div class="col-sm-4">
-                            <input type="text" class="form-control" data-placement="bottom">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="col-xs-12 col-sm-12">
             <div class="box">
                 <div class="box-header">
                     <div class="box-name">
                         <i class="fa fa-search"></i>
-                        <span>LECTURA DE TEMPERATURAS Y PRESIONES</span>
+                        <span>1.3 LECTURA DE TEMPERATURAS Y PRESIONES</span>
                     </div>
                     <div class="box-icons">
                         <a class="collapse-link">
@@ -430,7 +405,7 @@
                 <div class="box-header">
                     <div class="box-name">
                         <i class="fa fa-search"></i>
-                        <span>FILTRO MOTOR CAT. 3512</span>
+                        <span>2 FILTRO MOTOR CAT. 3512</span>
                     </div>
                     <div class="box-icons">
                         <a class="collapse-link">
