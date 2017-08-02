@@ -42,5 +42,4 @@ class MY_Config extends CI_Config {
         }
         log_message('info', 'Config Class Initialized');
     }
-
 }

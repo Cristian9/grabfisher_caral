@@ -1,10 +1,3 @@
-<?php
-    echo "<pre>";
-    print_r($lanchas);
-    echo "</pre>";
-?>
-    
-
 <div class="row">
     <div id="breadcrumb" class="col-xs-12">
         <a href="#" class="show-sidebar">
@@ -17,8 +10,37 @@
         </ol>
     </div>
 </div>
-<div class="row">
-    <form class="form-horizontal" role="form">
+<form class="form-horizontal" role="form">
+    <div class="row">
+        <div class="form-group has-success">
+            <label class="col-sm-2 control-label">Lancha:</label>
+            <div class="col-sm-4">
+                <select id="cbo_tiburon" class="populate placeholder">
+                    <option>.:: Seleccione ::.</option>
+                    <?php
+                        foreach ($lanchas as $value) {
+                            echo "<option value='" . $value['id'] . "'>" . $value['description'] . "</option>";
+                        }
+                    ?>
+                </select>
+            </div>
+        </div>
+        <div class="form-group has-success">
+            <label class="col-sm-2 control-label">Puerto:</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" placeholder="Ingrese el puerto">
+            </div>
+        </div>
+        <div class="form-group has-success has-feedback">
+            <label class="col-sm-2 control-label">Fecha:</label>
+            <div class="col-sm-2">
+                <input type="text" id="input_date" class="form-control" placeholder="Fecha">
+                <span class="fa fa-calendar txt-danger form-control-feedback"></span>
+            </div>
+        </div>
+    </div>
+    <center><p><h2>PARTE DIARIO DE MOTORISTA</h2></p></center><br />
+    <div class="row">
         <div class="col-xs-6 col-sm-6">
             <div class="box">
                 <div class="box-header">
@@ -478,19 +500,19 @@
                 </button>
             </div>
         </div>
-    </form>
-</div>
+    </div>
+</form>
 <script type="text/javascript">
 // Run Select2 plugin on elements
     function DemoSelect2() {
-        $('#s2_with_tag').select2({placeholder: "Select OS"});
-        $('#s2_country').select2();
+        $('#cbo_tiburon').select2({placeholder: "Seleccione una lancha"});
     }
 // Run timepicker
     function DemoTimePicker() {
         $('#input_time').timepicker({setDate: new Date()});
     }
     $(document).ready(function () {
+        
         // Create Wysiwig editor for textare
         TinyMCEStart('#wysiwig_simple', null);
         TinyMCEStart('#wysiwig_full', 'extreme');
