@@ -55,9 +55,9 @@
                         <a class="expand-link">
                             <i class="fa fa-expand"></i>
                         </a>
-                        <a class="close-link">
+                        <!--<a class="close-link">
                             <i class="fa fa-times"></i>
-                        </a>
+                        </a>-->
                     </div>
                     <div class="no-move"></div>
                 </div>
@@ -146,9 +146,9 @@
                         <a class="expand-link">
                             <i class="fa fa-expand"></i>
                         </a>
-                        <a class="close-link">
+                        <!--<a class="close-link">
                             <i class="fa fa-times"></i>
-                        </a>
+                        </a>-->
                     </div>
                     <div class="no-move"></div>
                 </div>
@@ -293,9 +293,9 @@
                         <a class="expand-link">
                             <i class="fa fa-expand"></i>
                         </a>
-                        <a class="close-link">
+                        <!--<a class="close-link">
                             <i class="fa fa-times"></i>
-                        </a>
+                        </a>-->
                     </div>
                     <div class="no-move"></div>
                 </div>
@@ -336,9 +336,9 @@
                         <a class="expand-link">
                             <i class="fa fa-expand"></i>
                         </a>
-                        <a class="close-link">
+                        <!--<a class="close-link">
                             <i class="fa fa-times"></i>
-                        </a>
+                        </a>-->
                     </div>
                     <div class="no-move"></div>
                 </div>
@@ -439,9 +439,9 @@
                         <a class="expand-link">
                             <i class="fa fa-expand"></i>
                         </a>
-                        <a class="close-link">
+                        <!--<a class="close-link">
                             <i class="fa fa-times"></i>
-                        </a>
+                        </a>-->
                     </div>
                     <div class="no-move"></div>
                 </div>
